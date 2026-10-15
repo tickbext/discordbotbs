@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Minecraft Discord Bot</title>
+    <style>
+        :root {
+            --bg: #1a1a2e;
+            --card: #16213e;
+            --accent: #0f3460;
+            --text: #e0e0e0;
+            --heading: #ffffff;
+            --link: #5865F2;
+            --border: #2a2a4a;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        h1 {
+            color: var(--heading);
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: var(--heading);
+            font-size: 1.3rem;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        p, li { margin-bottom: 10px; }
+        ul { padding-left: 24px; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 20px 0;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            color: #666;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+        .footer a { color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Legal</span>
+        <h1>🔒 Privacy Policy</h1>
+        <p class="subtitle">Last updated: October 15, 2026</p>
+
+        <div class="card">
+            <p><strong>Summary:</strong> This bot collects minimal data required to function. We do not sell, share, or store personal data beyond what is necessary for the bot's operation.</p>
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy explains how the Minecraft Discord Bot ("the Bot", "we", "us") handles information when you interact with it on Discord. By using the Bot, you agree to the practices described in this policy.</p>
+
+        <h2>2. Information We Collect</h2>
+        <p>The Bot processes the following data <strong>in real-time</strong> to respond to your commands:</p>
+        <ul>
+            <li><strong>Discord User ID and Username</strong> — to attribute command usage (e.g., "Requested by" labels in embeds).</li>
+            <li><strong>Server (Guild) ID</strong> — to manage per-server music queues and settings.</li>
+            <li><strong>Voice Channel ID</strong> — to join voice channels for music playback.</li>
+            <li><strong>Command Input</strong> — the arguments you provide to slash commands (e.g., search queries for <code>/play</code>, RCON commands).</li>
+        </ul>
+
+        <h2>3. Information We Do NOT Collect</h2>
+        <ul>
+            <li>We do <strong>not</strong> read or log message content outside of slash commands.</li>
+            <li>We do <strong>not</strong> store any personal data in a database.</li>
+            <li>We do <strong>not</strong> collect email addresses, IP addresses, or payment information.</li>
+            <li>We do <strong>not</strong> track users across servers.</li>
+            <li>We do <strong>not</strong> use cookies or analytics trackers.</li>
+        </ul>
+
+        <h2>4. How We Use Information</h2>
+        <p>All data processed by the Bot is used solely to:</p>
+        <ul>
+            <li>Execute the slash command you invoked.</li>
+            <li>Display attribution in command responses (e.g., "Requested by username").</li>
+            <li>Manage music queues on a per-server basis.</li>
+            <li>Connect to your voice channel for music playback.</li>
+        </ul>
+
+        <h2>5. Data Storage &amp; Retention</h2>
+        <div class="card">
+            <p>The Bot operates <strong>entirely in-memory</strong>. No user data is written to disk or stored in any database. When the Bot restarts, all session data (music queues, playback state) is lost.</p>
+        </div>
+        <p>Server console output may be temporarily visible in process logs on the host machine, but these logs are not shared with any third party.</p>
+
+        <h2>6. Third-Party Services</h2>
+        <p>The Bot interacts with the following third-party services:</p>
+        <ul>
+            <li><strong>Discord API</strong> — to receive commands and send responses. Governed by <a href="https://discord.com/privacy" target="_blank">Discord's Privacy Policy</a>.</li>
+            <li><strong>YouTube</strong> — to search for and stream music. Governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. The Bot does not store your search history.</li>
+        </ul>
+
+        <h2>7. Data Sharing</h2>
+        <p>We do <strong>not</strong> sell, trade, or otherwise transfer your information to third parties. Data is only shared with Discord and YouTube as necessary to provide the Bot's functionality.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>The Bot does not knowingly collect information from children under the age of 13. Use of Discord is subject to <a href="https://discord.com/terms" target="_blank">Discord's Terms of Service</a>, which require users to be at least 13 years old.</p>
+
+        <h2>9. Security</h2>
+        <p>Administrative commands (server management, RCON, whitelist) are restricted to users with the Discord Administrator permission. The Bot does not expose sensitive server information to unauthorized users.</p>
+
+        <h2>10. Your Rights</h2>
+        <p>Since we do not store personal data persistently, there is no data to request, modify, or delete. If you wish to stop the Bot from processing your commands, simply stop interacting with it or remove it from your server.</p>
+
+        <h2>11. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last updated" date at the top of this page. Continued use of the Bot after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>12. Contact</h2>
+        <p>If you have questions about this Privacy Policy, you can reach us through our Discord server or by contacting the bot owner directly on Discord.</p>
+
+        <div class="footer">
+            <p>Minecraft Discord Bot &bull; <a href="terms.html">Terms of Service</a> &bull; Privacy Policy</p>
+        </div>
+    </div>
+</body>
+</html>
